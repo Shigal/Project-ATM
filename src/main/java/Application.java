@@ -9,7 +9,7 @@ public class Application {
         ATMOperation operation = new ATMOperationImpl();
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome!");
+        System.out.println("Welcome to ATM!");
         System.out.print("Enter ATM Number: ");
         int atmNo = input.nextInt();
 
