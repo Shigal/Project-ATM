@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Application {
     public static void main(String[] args) {
 
-        int atmNumber = 11112;
+        int atmNumber = 111;
         int atmPin = 1234;
 
         ATMOperation operation = new ATMOperationImpl();
