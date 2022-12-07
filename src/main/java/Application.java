@@ -9,7 +9,7 @@ public class Application {
         ATMOperation operation = new ATMOperationImpl();
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome!");
+        System.out.println("Welcome to ATM!");
         System.out.print("Enter ATM Number: ");
         int atmNo = input.nextInt();
 
@@ -19,7 +19,7 @@ public class Application {
         if((atmNo == atmNumber) && (pin == atmPin)) {
             while (true) {
                 System.out.println("1. View available balance\n2. Withdraw the money\n" +
-                        "3. Deposit the money\n4. View Finance statement\n5. Exit");
+                        "3. Deposit the money\n4. View Finance statement\n5. Exit from ATM");
                 System.out.print("Enter option: ");
                 int option = input.nextInt();
                 switch (option) {
